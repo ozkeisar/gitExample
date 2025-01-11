@@ -70,6 +70,35 @@
       "paramType": "body",
       "paramValue": null,
       "id": "37c1965c-3434-419b-8047-cad702963480"
+    },
+    "0ca1f618-4538-4778-86d0-1714d32ff585": {
+      "description": "",
+      "routePath": "/user",
+      "method": "patch",
+      "activeResponseId": "295bec85-6540-4c82-889d-018d185ba57a",
+      "responsesHash": {
+        "295bec85-6540-4c82-889d-018d185ba57a": {
+          "id": "295bec85-6540-4c82-889d-018d185ba57a",
+          "name": "success",
+          "description": "",
+          "res": {
+            "code": 200,
+            "data": {
+              "success": true
+            },
+            "headers": {}
+          },
+          "exec": null,
+          "url": null,
+          "type": "obj",
+          "blockProxy": false
+        }
+      },
+      "withParams": false,
+      "paramKey": null,
+      "paramType": "body",
+      "paramValue": null,
+      "id": "0ca1f618-4538-4778-86d0-1714d32ff585"
     }
   },
   "graphQlRouteHash": {},
