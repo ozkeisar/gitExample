@@ -1,0 +1,80 @@
+{
+  "id": "acbb812f-7b9d-4cbd-853e-2cce0bfbe25e",
+  "filename": "users_13283bf2",
+  "path": "/users",
+  "routesHash": {
+    "5eefe122-12e7-46ce-8d0b-dd7a502ec151": {
+      "description": "",
+      "routePath": "/user",
+      "method": "post",
+      "activeResponseId": "da344fae-e566-41ab-bcb0-554a7a8cce5d",
+      "responsesHash": {
+        "da344fae-e566-41ab-bcb0-554a7a8cce5d": {
+          "id": "da344fae-e566-41ab-bcb0-554a7a8cce5d",
+          "name": "success",
+          "description": "",
+          "res": {
+            "code": 200,
+            "data": {
+              "success": true
+            },
+            "headers": {}
+          },
+          "exec": null,
+          "url": null,
+          "type": "obj",
+          "blockProxy": false
+        }
+      },
+      "withParams": false,
+      "paramKey": null,
+      "paramType": "body",
+      "paramValue": null,
+      "id": "5eefe122-12e7-46ce-8d0b-dd7a502ec151"
+    },
+    "37c1965c-3434-419b-8047-cad702963480": {
+      "description": "",
+      "routePath": "/user",
+      "method": "get",
+      "activeResponseId": "2a7ae9ce-8636-4902-98cc-63dc6707d170",
+      "responsesHash": {
+        "2a7ae9ce-8636-4902-98cc-63dc6707d170": {
+          "id": "2a7ae9ce-8636-4902-98cc-63dc6707d170",
+          "name": "user list",
+          "description": "",
+          "res": {
+            "code": 200,
+            "data": {
+              "users": [
+                {
+                  "name": "daniel"
+                },
+                {
+                  "name": "oz"
+                },
+                {
+                  "name": "mor"
+                }
+              ]
+            },
+            "headers": {}
+          },
+          "exec": null,
+          "url": null,
+          "type": "obj",
+          "blockProxy": false
+        }
+      },
+      "withParams": false,
+      "paramKey": null,
+      "paramType": "body",
+      "paramValue": null,
+      "id": "37c1965c-3434-419b-8047-cad702963480"
+    }
+  },
+  "graphQlRouteHash": {},
+  "type": "Rest",
+  "name": "",
+  "schemaPath": "",
+  "graphqlQueriesType": "Query"
+}

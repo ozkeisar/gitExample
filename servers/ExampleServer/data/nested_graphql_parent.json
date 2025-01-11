@@ -1,0 +1,140 @@
+{
+  "id": "ed522f73-d889-4d18-91b4-757b0e06c599",
+  "filename": "nested_graphql_parent",
+  "path": "/graphql",
+  "routesHash": {},
+  "graphQlRouteHash": {
+    "4501f261-a776-45a6-8b60-6d392a0e94ee": {
+      "id": "4501f261-a776-45a6-8b60-6d392a0e94ee",
+      "type": "Query",
+      "name": "schema",
+      "description": "",
+      "activeResponseId": "7174ff2d-6fcb-4c31-8b5b-2b86381e54ff",
+      "responsesHash": {
+        "06e66376-7903-4c05-8db1-24805a4e5461": {
+          "id": "06e66376-7903-4c05-8db1-24805a4e5461",
+          "name": "success",
+          "description": "",
+          "res": {
+            "details": {
+              "id": "example id",
+              "list": [
+                {
+                  "name": "example1"
+                },
+                {
+                  "name": "example2"
+                },
+                {
+                  "name": "example3"
+                },
+                {
+                  "name": "example4"
+                }
+              ]
+            }
+          },
+          "exec": null,
+          "url": null,
+          "type": "obj",
+          "schema": "type Query_Schema_Path_to_Details_List__ {\n  name: String\n}\ntype Query_Schema_Path_to_Details_ {\n  id: String\n  list: [Query_Schema_Path_to_Details_List__]\n}\ntype Query_Schema_Path_to_ {\n  details: Query_Schema_Path_to_Details_\n}",
+          "schemaTypeName": "Query_Schema_Path_to_"
+        },
+        "7174ff2d-6fcb-4c31-8b5b-2b86381e54ff": {
+          "id": "7174ff2d-6fcb-4c31-8b5b-2b86381e54ff",
+          "name": "response 2",
+          "description": "",
+          "res": {
+            "details": {
+              "id": "example id2",
+              "list": [
+                {
+                  "name": "name example1"
+                },
+                {
+                  "name": "name example2"
+                },
+                {
+                  "name": "name example3"
+                }
+              ]
+            }
+          },
+          "exec": null,
+          "url": null,
+          "type": "obj",
+          "schema": "type Query_Schema_Path_to_Details_List__ {\n  name: String\n}\ntype Query_Schema_Path_to_Details_ {\n  id: String\n  list: [Query_Schema_Path_to_Details_List__]\n}\ntype Query_Schema_Path_to_ {\n  details: Query_Schema_Path_to_Details_\n}",
+          "schemaTypeName": "Query_Schema_Path_to_"
+        }
+      }
+    },
+    "b506ad70-6ba0-42bc-9f75-e4268b238f08": {
+      "id": "b506ad70-6ba0-42bc-9f75-e4268b238f08",
+      "type": "Query",
+      "name": "schemaWithParams(param: String!)",
+      "description": "",
+      "activeResponseId": "f19e5eb0-5791-4ccf-9763-440f936639c5",
+      "responsesHash": {
+        "f7cf379d-86b0-42ff-900e-e2b4e9b2dd2d": {
+          "id": "f7cf379d-86b0-42ff-900e-e2b4e9b2dd2d",
+          "name": "success",
+          "description": "",
+          "res": {
+            "details": {
+              "id": "example id",
+              "list": [
+                {
+                  "name": "example1"
+                },
+                {
+                  "name": "example2"
+                },
+                {
+                  "name": "example3"
+                },
+                {
+                  "name": "example4"
+                }
+              ]
+            }
+          },
+          "exec": null,
+          "url": null,
+          "type": "obj",
+          "schema": "type Query_SchemaWithParams_Path_to_Details_List__ {\n  name: String\n}\ntype Query_SchemaWithParams_Path_to_Details_ {\n  id: String\n  list: [Query_SchemaWithParams_Path_to_Details_List__]\n}\ntype Query_SchemaWithParams_Path_to_ {\n  details: Query_SchemaWithParams_Path_to_Details_\n}",
+          "schemaTypeName": "Query_SchemaWithParams_Path_to_"
+        },
+        "f19e5eb0-5791-4ccf-9763-440f936639c5": {
+          "id": "f19e5eb0-5791-4ccf-9763-440f936639c5",
+          "name": "response 2",
+          "description": "",
+          "res": {
+            "details": {
+              "id": "example id2",
+              "list": [
+                {
+                  "name": "name example1"
+                },
+                {
+                  "name": "name example2"
+                },
+                {
+                  "name": "name example3"
+                }
+              ]
+            }
+          },
+          "exec": null,
+          "url": null,
+          "type": "obj",
+          "schema": "type Query_SchemaWithParams_Path_to_Details_List__ {\n  name: String\n}\ntype Query_SchemaWithParams_Path_to_Details_ {\n  id: String\n  list: [Query_SchemaWithParams_Path_to_Details_List__]\n}\ntype Query_SchemaWithParams_Path_to_ {\n  details: Query_SchemaWithParams_Path_to_Details_\n}",
+          "schemaTypeName": "Query_SchemaWithParams_Path_to_"
+        }
+      }
+    }
+  },
+  "type": "GraphQl",
+  "name": "Graphql nested parent",
+  "schemaPath": "path.to",
+  "graphqlQueriesType": "Query"
+}

@@ -1,0 +1,9 @@
+{
+  "proxyBaseUrl": null,
+  "forceProxy": false,
+  "delay": 0,
+  "port": 3001,
+  "reWriteCookieDomain": false,
+  "simplifyCookies": false,
+  "duplicateCookies": false
+}

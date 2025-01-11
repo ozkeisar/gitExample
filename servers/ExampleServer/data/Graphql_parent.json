@@ -1,0 +1,47 @@
+{
+  "id": "37d6038e-d706-43b8-a924-a61521e92702",
+  "filename": "Graphql_parent",
+  "path": "/graphql",
+  "routesHash": {},
+  "graphQlRouteHash": {
+    "c336c107-b649-49f0-beca-fc16458984ca": {
+      "id": "c336c107-b649-49f0-beca-fc16458984ca",
+      "type": "Query",
+      "name": "simpleExample",
+      "description": "",
+      "activeResponseId": "3bdfaf3f-9244-46e3-9003-b3fd3c88227a",
+      "responsesHash": {
+        "deaf860f-704d-4456-9518-04a60a632055": {
+          "id": "deaf860f-704d-4456-9518-04a60a632055",
+          "name": "success",
+          "description": "",
+          "res": {
+            "message": "hello world"
+          },
+          "exec": null,
+          "url": null,
+          "type": "obj",
+          "schema": "type Query_SimpleExample_ {\n  message: String\n}",
+          "schemaTypeName": "Query_SimpleExample_"
+        },
+        "3bdfaf3f-9244-46e3-9003-b3fd3c88227a": {
+          "id": "3bdfaf3f-9244-46e3-9003-b3fd3c88227a",
+          "name": "response 2",
+          "description": "",
+          "res": {
+            "message": "this is response 2"
+          },
+          "exec": "(arg, context, info) => {\n\tconst res = {\n\t\t\"message\": \"message from function\",\n\t}\n\treturn res\n}",
+          "url": null,
+          "type": "func",
+          "schema": "type Query_SimpleExample_ {\n  message: String\n}",
+          "schemaTypeName": "Query_SimpleExample_"
+        }
+      }
+    }
+  },
+  "type": "GraphQl",
+  "name": "Graphql parent",
+  "schemaPath": "",
+  "graphqlQueriesType": "Query"
+}
